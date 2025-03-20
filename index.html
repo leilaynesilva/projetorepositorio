@@ -5,30 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leilayne da Silva Souza | Portifólio </title>
     <link rel="stylesheet" href="assents/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">  <!--link da fonte que acrescentei -->
 </head>
 <body>
     <header>
         <h1>Leilayne da Silva Souza</h1>
-        <img src="fotoperfil.jpeg" alt="foto de perfil de Leilayne da Silva Souza">
-        <h2>Estudante de Engenharia de Software | Desenvolvimento Full Stack</h2>
+        <img src="assents\image\fotoperfil.jpeg" alt="foto de perfil de Leilayne da Silva Souza" id="img-perfil">
+        <h2 id="titulo">Estudante de Engenharia de Software | Desenvolvimento Full Stack</h2>
         <nav class="nav">
-            <ul>
-                <li><a href="#">Sobre Mim</a></li>
-                <li><a href="#">Formação Acadêmica </a></li>
-                <li><a href="#">Lista de Habilidades</a></li>
-                <li><a href="#">Certificações</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Contatos</a></li>
+            <ul class="cabecalho">
+                <li><a href="#sobre" class="cabecalho">Sobre Mim</a></li>
+                <li><a href="#formacao" class="cabecalho" >Formação Acadêmica </a></li>
+                <li><a href="#habilidades" class="cabecalho">Lista de Habilidades</a></li>
+                <li><a href="#certificados" class="cabecalho">Certificações</a></li>
+                <li><a href="#projetos" class="cabecalho">Projetos</a></li>
+                <li><a href="#contatoform" class="cabecalho">Contatos</a></li>
             </ul>
         </nav>
     </header>
     
     <main>
         <section id="sobre">
-            <h2>Sobre mim</h2>
+            <h3>Sobre mim</h3>
             <p>Sou uma profissional proativa, com experiência em atendimento ao cliente, suporte técnico e desenvolvimento de soluções eficientes. Atualmente, estou cursando Engenharia de Software e Técnico em Desenvolvimento Full Stack, buscando aprimorar minhas habilidades em programação e tecnologia</p>
-            <ul>
-                <h3>Alguns dos meus hobbies:</h3>
+            
+            <h4>Alguns dos meus hobbies:</h4>
+        
+            <ul class="hobbies">
                 <li>Jogar video-game.</li>
                 <li>Tocar violão.</li>
                 <li>Ler aventuras, ficção científicas e romances.</li>
@@ -36,23 +42,23 @@
         </section>
 
         <section id="formacao">
-            <h2>Formação Acadêmica</h2>
+            <h3>Formação Acadêmica</h3>
             <ul>
                 <li>
-                    <h3>Graduação em Engenharia de Software - Universidade Anhanguera</h3>
+                    <h4>Graduação em Engenharia de Software - Universidade Anhanguera</h4>
                     <p>Agosto de 2024 a Dezembro de 2027</p>
                 </li>
                 <li>
-                    <h3>Desenvolvimento Full Stack - Codi Academy</h3>
+                    <h4>Desenvolvimento Full Stack - Codi Academy</h4>
                     <p>Fevereiro de 2024 a Dezembro de 2025</p>
                 </li>
             </ul>
         </section>
 
         <section id="habilidades">
-            <h2>Lista de Habilidades</h2>
+            <h3>Lista de Habilidades</h3>
             <ul>
-                <h3>Soft Skills</h3>
+                <h4>Soft Skills</h4>
                 <li>Comunicação assertiva</li>
                 <li>Empatia</li>
                 <li>Diagnótico de Problemas</li>
@@ -60,7 +66,7 @@
             </ul>
 
             <ul>
-                <h3>Hard Skills</h3>
+                <h4>Hard Skills</h4>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -71,7 +77,7 @@
         </section>
 
         <section id="certificados">
-            <h2>Certificados</h2>
+            <h3>Certificados</h3>
             <ul>
                 <li>Entendendo HTML Semântico - DIO (2025)</li>
                 <li>Introdução a Banco de Dados Relacionais - DIO (2025)</li>
@@ -83,16 +89,16 @@
         </section>
 
         <section id="projetos">
-            <h2>Projetos</h3>
+            <h3>Projetos</h3>
             <ul>   
-                <li><a href="https://github.com/leilaynesilva/100_dias_de_codigo/tree/main/dia3">Verificador de Números Pares e Ímpares em Python</a></li>
-                <li><a href="https://github.com/leilaynesilva/100_dias_de_codigo/blob/main/dia4%20e%205/dia4e5.py">Calculadora Simples em Python</a></li>
-                <li><a href="https://github.com/leilaynesilva/100_dias_de_codigo/commit/1e6b37416edd4dfbc58b4068f65a4acce7c7731f">Card 3D Interativo utilizando HTML e CSS</a></li>
+                <li><a target="_blank" href="https://github.com/leilaynesilva/100_dias_de_codigo/tree/main/dia3">Verificador de Números Pares e Ímpares em Python</a></li>
+                <li><a  target="_blank" href="https://github.com/leilaynesilva/100_dias_de_codigo/blob/main/dia4%20e%205/dia4e5.py">Calculadora Simples em Python</a></li>
+                <li><a  target="_blank" href="https://github.com/leilaynesilva/100_dias_de_codigo/commit/1e6b37416edd4dfbc58b4068f65a4acce7c7731f">Card 3D Interativo utilizando HTML e CSS</a></li>
             </ul>
         </section>
         
         <section id="contatoform">
-            <h2>Contato</h2>
+            <h3>Contatos</h3>
             <form action="#" method="post">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome"required>

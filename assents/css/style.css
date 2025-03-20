@@ -1,0 +1,86 @@
+*{
+    margin: 30px;
+    box-sizing: border-box; /*vai somar a borda + padding*/
+    font-family: "Arvo", serif; /*fonte que peguei no google font*/
+    font-weight: 400; /*pertence a config de arvo*/
+    font-style: normal; /*pertence a config de arvo*/
+    background-color: #0D0630;
+}
+html{
+    scroll-behavior: smooth; /*para rolar devagar*/
+    color: white;
+}
+
+    header{
+        background-color: #1c59c0;
+        color: #F8F7f9;
+        padding: 20px;
+        margin: none;
+    }
+
+    h1{
+        text-align: center;
+        width: max-content;
+        margin: 20px auto ;
+        background-color: ;
+    }
+
+    h2{       
+        width: 800px;
+        justify-content: center;                       
+    }
+
+    #img-perfil{
+        border-radius: 100%;
+        object-fit: cover;
+        height:350px;
+        width: 350px;
+        margin: auto; /*alinha a imagem no centro, em conjunto com width*/
+        display: block; /*alinha a imagem no centro, em conjunto com width*/
+    }
+
+    h2{
+        text-align: center; /* Centraliza o texto */
+        width: max-content; /* Faz o h2 ficar só do tamanho do texto */
+        margin: 20px auto; /* Centraliza o h2 na tela */
+    }
+    nav{      
+    background-color: #1a2a5d;       
+    }
+
+    ul.cabecalho{
+        padding:0;
+        width: auto;
+        text-align: center;
+        margin: 0;
+        background-color: #1c59c0;
+    }
+    
+    ul li{
+        max-width: auto;
+        display: inline;
+    }
+    
+    a.cabecalho{
+        color:#F8F7F9;
+        text-decoration: none;
+        list-style: none;
+        margin:auto;
+        background-color: #1c59c0;
+         
+    }
+    a:hover{
+        background-color: #92dce5;
+    
+    }
+
+    main section{
+        background-color:#1c59c0;
+    }
+    
+    h3 {
+        max-width: auto;
+        text-align: center;
+        margin: 20px auto;
+        text-decoration: ;
+    }
