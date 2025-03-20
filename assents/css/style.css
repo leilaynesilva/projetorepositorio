@@ -74,11 +74,11 @@ html{
     
     }
 
-    main section{
+    main{
         background-color:#1c59c0;
     }
     
-    h3 {
+    h3{
         max-width: auto;
         text-align: center;
         margin: 20px auto;
